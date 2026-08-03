@@ -1,0 +1,24 @@
+
+epeagle-nginx:
+  enabled: true
+  nameOverride: epeagle-nginx
+
+  ingress:
+    enabled: false
+
+  podDisruptionBudget:
+    enabled: false
+
+  pods:
+    controller: deployment
+
+    image:
+      name: asia-southeast3-docker.pkg.dev/its-artifact-commons/p2web/epeagle-nginx
+
+  service:
+    enabled: true
+    ports:
+      - port: 80
+        targetPort: 80
+        protocol: TCP
+        name: http

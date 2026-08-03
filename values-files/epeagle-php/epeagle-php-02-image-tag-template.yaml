@@ -1,0 +1,5 @@
+
+epeagle-php:
+  pods:
+    image:
+      tag: "<<image-tag>>"
