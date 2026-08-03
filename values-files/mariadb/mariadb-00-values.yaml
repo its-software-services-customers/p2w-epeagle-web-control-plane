@@ -5,8 +5,6 @@ mariadb:
     username: epeagle
     database: epeagle
     existingSecret: mariadb-secret
-    existingSecretRootPasswordKey: MARIADB_ROOT_PASSWORD
-    existingSecretPasswordKey: MARIADB_PASSWORD
 
     #secretKeys:
     #  adminPasswordKey: adminPasswordKey
