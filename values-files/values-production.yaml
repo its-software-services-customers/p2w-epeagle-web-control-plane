@@ -1,0 +1,7 @@
+---
+envAlias: production
+envAliasJob: Production
+
+envGroup: prod
+
+DomainWeb: ep-eagle-pharma.com
