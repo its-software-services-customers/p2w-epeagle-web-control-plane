@@ -7,4 +7,4 @@ envGroup: prod
 DomainWebTmp: web-prod.epeagle-pharma.com
 DomainWeb1: epeagle-pharma.com
 DomainWeb2: ep-eagle-pharma.com
-DomainWeb3: epeaglepharma.com #เหมือนไม่ใช้แล้ว แต่ยังคงเก็บไว้เพื่อความปลอดภัยของระบบ
+DomainWeb3: epeaglepharma.com #เหมือนใช้เฉพาะ checkcode
