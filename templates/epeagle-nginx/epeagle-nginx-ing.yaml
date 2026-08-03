@@ -19,6 +19,6 @@ spec:
             pathType: Prefix
             backend:
               service:
-                name: epeagle-{{ .Values.envGroup }}-epeagle-nginx
+                name: epeagle-epeagle-nginx
                 port:
                   number: 80

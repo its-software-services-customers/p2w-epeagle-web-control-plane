@@ -16,3 +16,6 @@ epeagle-nginx:
 
       - name: ENV_RUN
         value: 'Development'
+
+      - name: PHP_HOST
+        value: 'epeagle-epeagle-php'
