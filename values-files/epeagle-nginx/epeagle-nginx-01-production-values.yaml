@@ -19,3 +19,6 @@ epeagle-nginx:
 
       - name: NODE_ENV
         value: 'Production'
+
+      - name: PHP_HOST
+        value: 'epeagle-epeagle-php'
