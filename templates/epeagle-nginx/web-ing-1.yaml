@@ -10,7 +10,7 @@ metadata:
 spec:
   tls:
     - hosts:
-      - {{ .Values.domainWordpress }}
+      - {{ .Values.DomainWeb1 }}
       - www.{{ .Values.DomainWeb1 }}
       secretName: web-cert-1
   rules:
