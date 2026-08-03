@@ -15,16 +15,10 @@ epeagle-php:
         value: 'mariadb'
 
       - name: DB_NAME
-        valueFrom:
-          secretKeyRef:
-            name: mariadb-secret
-            key: MARIADB_DATABASE
+        value: 'epeagle'
 
       - name: DB_USER
-        valueFrom:
-          secretKeyRef:
-            name: mariadb-secret
-            key: MARIADB_USER
+        value: 'epeagle'
 
       - name: DB_PASS
         valueFrom:

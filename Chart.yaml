@@ -13,7 +13,7 @@ dependencies:
     alias: mariadb
     condition: mariadb.enabled
     repository: "https://charts.bitnami.com/bitnami"
-    version: "16.7.15"
+    version: "27.0.1"
 
   ### EP eagle Ngginx ###
   - name: "generic-app"
