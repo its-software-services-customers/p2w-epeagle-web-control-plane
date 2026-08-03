@@ -4,8 +4,7 @@ metadata:
   name: web-ing-1
   annotations:
     kubernetes.io/ingress.class: "nginx"
-    kubernetes.io/ingress.allow-http: "true" #Wordpress will redirect to https internally
-    nginx.ingress.kubernetes.io/backend-protocol: HTTPS
+    nginx.ingress.kubernetes.io/backend-protocol: HTTP
     nginx.ingress.kubernetes.io/proxy-body-size: 100m
 spec:
   tls:
