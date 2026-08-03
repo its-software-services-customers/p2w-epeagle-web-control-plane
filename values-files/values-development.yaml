@@ -3,4 +3,7 @@ envAlias: development
 envAliasJob: Development
 envGroup: dev
 
-DomainWeb: web-dev.epeagle-pharma.com
+DomainWebTmp: web-dev.epeagle-pharma.com
+DomainWeb1: web-dev.epeagle-pharma.com
+DomainWeb2: web-dev.ep-eagle-pharma.com
+DomainWeb3: web-dev.epeaglepharma.com

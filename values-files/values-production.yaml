@@ -4,4 +4,7 @@ envAliasJob: Production
 
 envGroup: prod
 
-DomainWeb: web-prod.epeagle-pharma.com
+DomainWebTmp: web-prod.epeagle-pharma.com
+DomainWeb1: epeagle-pharma.com
+DomainWeb2: ep-eagle-pharma.com
+DomainWeb3: epeaglepharma.com
