@@ -2,10 +2,14 @@ mariadb:
   enabled: true
   fullnameOverride: mariadb
   auth:
+    username: epeagle
     database: epeagle
     existingSecret: mariadb-secret
-    secretKeys:
-      adminPasswordKey: adminPasswordKey
+    existingSecretRootPasswordKey: MARIADB_ROOT_PASSWORD
+    existingSecretPasswordKey: MARIADB_PASSWORD
+
+    #secretKeys:
+    #  adminPasswordKey: adminPasswordKey
 
   image:
     repository: bitnamilegacy/mariadb
