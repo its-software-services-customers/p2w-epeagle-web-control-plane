@@ -4,4 +4,4 @@ envAliasJob: Production
 
 envGroup: prod
 
-DomainWeb: ep-eagle-pharma.com
+DomainWeb: web-prod.ep-eagle-pharma.com
