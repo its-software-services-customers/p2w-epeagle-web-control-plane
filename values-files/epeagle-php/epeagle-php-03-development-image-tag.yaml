@@ -2,4 +2,4 @@
 epeagle-php:
   pods:
     image:
-      tag: "develop-0900c22"
+      tag: "develop-d7955e9"
