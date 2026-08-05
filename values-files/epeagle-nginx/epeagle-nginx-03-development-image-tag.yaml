@@ -2,4 +2,4 @@
 epeagle-nginx:
   pods:
     image:
-      tag: "develop-8f0c988"
+      tag: "main-16c72d3"
